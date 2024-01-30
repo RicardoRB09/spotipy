@@ -1,15 +1,16 @@
-import os
-import song, playlist
+from spotipy.song import Song
+from spotipy.utils import menu_actions as actions
 
 
-def clear_terminal():
-    os.system('cls' if os.name == 'nt' else 'clear')
-    
-def press_enter():
-    input('Press ENTER to continue >_ ')
+
+#TODO: 
+# Heredar excepciones
+# hacer uso del name = main
+# hacer uso del str
+# Implementar Try Exceptions and raisens
 
 if __name__ == '__main__':
-    clear_terminal()
+    actions.clear_terminal()
     
     
 exe = True
@@ -25,15 +26,15 @@ while exe:
 Insert an option >_ """)
     
         if option == '1':
-            print()
+            Song.search_song()
         elif option == '2':
             print()
         elif option == '0':
             exe = False
             print('\n💫 Come back SOONg!💫\n')
         else:
-            print('\n🚧 Input incorrect! Try it again 🚧\n')
+            print('\n🚧 Incorrect input! Try it again! 🚧\n')
                 
-        press_enter()    
-        clear_terminal()
+        actions.press_enter()    
+        actions.clear_terminal()
 

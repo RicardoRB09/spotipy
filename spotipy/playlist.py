@@ -1,6 +1,9 @@
-from song import Song
+from  spotipy.song import Song
 
 class Playlist(Song):
+    #TODO: create variable to storage playlists
+    playlists = []
+    
     def __init__(self, name='MyPlaylist', likes=0, songsQty = 0, songs = [],**kwargs):
         super().__init__(*kwargs)
         self.name = name
@@ -10,6 +13,10 @@ class Playlist(Song):
         
     def create_playlist(self):
         self.name = input('What will you name it ?')
+        
+        
+    def show_playlist(self):
+        pass
         
     def add_song(self, song):
         self.songs.append(song)
