@@ -13,8 +13,7 @@ class Playlist(Song):
         
     def create_playlist(self):
         self.name = input('What will you name it ?')
-        
-        
+            
     def show_playlist(self):
         pass
         
@@ -22,7 +21,7 @@ class Playlist(Song):
         self.songs.append(song)
         self.songsQty += 1
         
-    def rem_song(self, song):
+    def remove_song(self, song):
         self.songs.remove(song)
         self.songsQty -= 1
         
