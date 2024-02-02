@@ -1,4 +1,4 @@
-pop_songs =  [
+pop_tracks =  [
     {
       "title": "Fix You",
       "artist": "Coldplay",
@@ -190,7 +190,7 @@ pop_songs =  [
     },
 ]
 
-salsa_songs = [
+salsa_tracks = [
     {
       "title": "La Gota Fria",
       "artist": "Carlos Vives",

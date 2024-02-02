@@ -14,6 +14,7 @@ def press_enter():
 def get_username():
     clear_terminal()
     User.username = input('Whats your name? >_ ')
+    clear_terminal()
     
     
 def get_greeting_time():

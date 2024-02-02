@@ -1,4 +1,5 @@
-from spotipy.song import Song
+from spotipy.track import Track
+from spotipy.playlist import Playlist
 from spotipy.utils import menu_actions as actions
 from spotipy.user import User
 
@@ -22,7 +23,7 @@ while exe:
                         
 📢📢 Welcome to Spotipy {User.username} 📢📢
           
-[1] 🔍 Playlists made for you
+[1] ✅ Playlists made for you
 [2] 📚 Your library
 [3] 🔍 Search a song
 
@@ -31,11 +32,11 @@ while exe:
 Insert an option >_ """)
     
         if option == '1':
-            print()
+            Playlist.show_default_playlist()
         elif option == '2':
             print()
         elif option == '3':
-            Song.search_song()
+            Track.search_track()
         elif option == '0':
             exe = False
             actions.clear_terminal()
@@ -44,5 +45,5 @@ Insert an option >_ """)
             print('\n🚧 Incorrect input! Try it again! 🚧\n')
                 
         actions.press_enter()    
-        actions.clear_terminal()
-
+        actions.clear_terminal()        
+        
