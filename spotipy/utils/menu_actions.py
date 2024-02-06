@@ -8,7 +8,7 @@ def clear_terminal():
     
     
 def press_enter():
-    input('Press ENTER to continue >_ ')
+    input('\nPress ENTER to continue >_ ')
     
 
 def get_username():

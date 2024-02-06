@@ -25,7 +25,8 @@ while exe:
           
 [1] ✅ Playlists made for you
 [2] 📚 Your library
-[3] 🔍 Search a song
+[3] 📚 Create a Playlist
+[4] 🔍 Search a song
 
 [0] ⏪ Quit 
 
@@ -34,8 +35,10 @@ Insert an option >_ """)
         if option == '1':
             Playlist.show_default_playlist()
         elif option == '2':
-            print()
+            Playlist.show_playlist()
         elif option == '3':
+            Playlist.create_playlist()
+        elif option == '4':
             Track.search_track()
         elif option == '0':
             exe = False
