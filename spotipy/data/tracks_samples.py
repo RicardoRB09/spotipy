@@ -262,3 +262,224 @@ salsa_tracks = [
       "genre": "Salsa"
     }
 ]
+
+mix = [
+    {
+        "title": "24K Magic",
+        "artist": "Bruno Mars",
+        "duration": "4:28",
+        "album": "24K Magic",
+        "genre": "Pop"
+    },
+    {
+        "title": "Radioactive",
+        "artist": "Imagine Dragons",
+        "duration": "3:45",
+        "album": "Night Visions",
+        "genre": "Alternative"
+    },
+    {
+        "title": "Senorita",
+        "artist": "Shawn Mendes, Camila Cabello",
+        "duration": "3:12",
+        "album": "Senorita (Single)",
+        "genre": "Pop"
+    },
+    {
+        "title": "Billie Jean",
+        "artist": "Michael Jackson",
+        "duration": "4:02",
+        "album": "Thriller",
+        "genre": "Pop"
+    },
+    {
+        "title": "Shape of You",
+        "artist": "Ed Sheeran",
+        "duration": "3:57",
+        "album": "÷ (Divide)",
+        "genre": "Pop"
+    },
+    {
+        "title": "Havana",
+        "artist": "Camila Cabello",
+        "duration": "3:23",
+        "album": "Camila",
+        "genre": "Pop"
+    },
+    {
+        "title": "La Gota Fria",
+        "artist": "Carlos Vives",
+        "duration": "4:15",
+        "album": "La Tierra del Olvido",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Que Manera de Quererte",
+        "artist": "Gilberto Santa Rosa",
+        "duration": "4:35",
+        "album": "Expresion",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Vivir Mi Vida",
+        "artist": "Marc Anthony",
+        "duration": "4:18",
+        "album": "3.0",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Anoche",
+        "artist": "Adolescents Orquesta",
+        "duration": "3:58",
+        "album": "Adolescents Orquesta",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Fix You",
+        "artist": "Coldplay",
+        "duration": "4:45",
+        "album": "X&Y",
+        "genre": "Alternative"
+    },
+    {
+        "title": "Someone You Loved",
+        "artist": "Lewis Capaldi",
+        "duration": "3:29",
+        "album": "Divinely Uninspired to a Hellish Extent",
+        "genre": "Pop"
+    },
+    {
+        "title": "Bad Guy",
+        "artist": "Billie Eilish",
+        "duration": "3:52",
+        "album": "When We All Fall Asleep, Where Do We Go?",
+        "genre": "Pop"
+    },
+    {
+        "title": "High Hopes",
+        "artist": "Panic! At The Disco",
+        "duration": "3:37",
+        "album": "Pray For The Wicked",
+        "genre": "Pop"
+    },
+    {
+        "title": "Dance Monkey",
+        "artist": "Tones and I",
+        "duration": "3:20",
+        "album": "The Kids Are Coming",
+        "genre": "Pop"
+    },
+    {
+        "title": "Blinding Lights",
+        "artist": "The Weeknd",
+        "duration": "3:48",
+        "album": "After Hours",
+        "genre": "Pop"
+    },
+    {
+        "title": "Watermelon Sugar",
+        "artist": "Harry Styles",
+        "duration": "4:03",
+        "album": "Fine Line",
+        "genre": "Pop"
+    },
+    {
+        "title": "Sucker",
+        "artist": "Jonas Brothers",
+        "duration": "3:16",
+        "album": "Happiness Begins",
+        "genre": "Pop"
+    },
+    {
+        "title": "Waka Waka (This Time for Africa)",
+        "artist": "Shakira",
+        "duration": "3:47",
+        "album": "Sale el Sol",
+        "genre": "Pop"
+    },
+    {
+        "title": "La Bicicleta",
+        "artist": "Shakira ft. Carlos Vives",
+        "duration": "3:26",
+        "album": "El Dorado",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Chantaje",
+        "artist": "Shakira ft. Maluma",
+        "duration": "3:33",
+        "album": "El Dorado",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Conteo Regresivo",
+        "artist": "Gilberto Santa Rosa ft. Victor Manuelle",
+        "duration": "4:02",
+        "album": "Viceversa",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Yo Tambien",
+        "artist": "Marc Anthony ft. Romeo Santos",
+        "duration": "3:47",
+        "album": "3.0",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Nota de Amor",
+        "artist": "Carlos Vives ft. Wisin",
+        "duration": "3:39",
+        "album": "La Fantasia",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Propuesta Indecente",
+        "artist": "Romeo Santos",
+        "duration": "4:45",
+        "album": "Formula, Vol. 2",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Ojala Que Llueva Cafe",
+        "artist": "Juan Luis Guerra",
+        "duration": "4:15",
+        "album": "Ojala Que Llueva Cafe",
+        "genre": "Salsa"
+    },
+    {
+        "title": "El Cantante",
+        "artist": "Hector Lavoe",
+        "duration": "5:02",
+        "album": "Comedia",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Algo Me Gusta De Ti",
+        "artist": "Wisin ft. Yandel",
+        "duration": "3:47",
+        "album": "Lideres",
+        "genre": "Salsa"
+    },
+    {
+        "title": "El Baile Del Sillon",
+        "artist": "Oscar de Leon",
+        "duration": "3:45",
+        "album": "Vive En Caracas",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Me Voy Pa' Cali",
+        "artist": "Oscar de Leon",
+        "duration": "4:10",
+        "album": "El Baile Del Siglo",
+        "genre": "Salsa"
+    },
+    {
+        "title": "Lloraras",
+        "artist": "Oscar de Leon",
+        "duration": "3:55",
+        "album": "Oscar de Leon",
+        "genre": "Salsa"
+    }
+]
+

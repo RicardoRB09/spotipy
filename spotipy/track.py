@@ -20,7 +20,7 @@ class Track():
         
     def search_track():
         clear_terminal()
-        print('💰 Explore Premium 💰. Now 3 months free.\n')
+        print('💰 Explore Premium 💰. Now 3 months free.')
         
 #         print("""\🔍 Search a track 🔍
 

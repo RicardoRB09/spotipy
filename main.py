@@ -18,6 +18,8 @@ exe = True
 
 actions.get_username()
 
+playlist = Playlist()
+
 while exe:
         option = input (f"""Good {actions.get_greeting_time()}
                         
@@ -33,19 +35,19 @@ while exe:
 Insert an option >_ """)
     
         if option == '1':
-            Playlist.show_default_playlist()
+            playlist.show_default_playlist()
         elif option == '2':
-            Playlist.show_playlist()
+            playlist.show_playlist()
         elif option == '3':
-            Playlist.create_playlist()
+            playlist.create_playlist()
         elif option == '4':
             Track.search_track()
         elif option == '0':
             exe = False
             actions.clear_terminal()
-            print(' Come back SOONg!💫\n')
+            print('✌✌✌ Come back soon ✌✌✌')
         else:
-            print('\n🚧 Incorrect input! Try it again! 🚧\n')
+            print('\n🚧 Incorrect input! Try it again! 🚧')
                 
         actions.press_enter()    
         actions.clear_terminal()        
