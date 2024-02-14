@@ -28,4 +28,13 @@ def get_greeting_time():
     
     if ((now >= time(17,00)) or (now <= time(4,59))):
         return 'Evening!!! 🌙'
+    
+def incorrect_input_message():
+        print('\n🚧 Incorrect input! Try again! 🚧')
+
+def no_playlist_message():
+    print('🚧 You dont have any playlist yet. Create one. 🚧')
+    
+def invalid_item_message():
+    print('\n🚧 The selected item does not exist. Try again! 🚧\n')
 

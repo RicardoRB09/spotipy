@@ -47,7 +47,7 @@ Insert an option >_ """)
             actions.clear_terminal()
             print('✌✌✌ Come back soon ✌✌✌')
         else:
-            print('\n🚧 Incorrect input! Try it again! 🚧')
+            actions.incorrect_input_message()
                 
         actions.press_enter()    
         actions.clear_terminal()        

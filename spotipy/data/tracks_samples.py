@@ -192,24 +192,24 @@ pop_tracks =  [
 
 salsa_tracks = [
     {
-      "title": "La Gota Fria",
-      "artist": "Carlos Vives",
-      "duration": "4:11",
-      "album": "La Tierra del Olvido",
+      "title": "Idilio",
+      "artist": "Willie Colon",
+      "duration": "5:07",
+      "album": "Mis Favoritas",
       "genre": "Salsa"
     },
     {
-      "title": "Fruta Fresca",
-      "artist": "Carlos Vives",
-      "duration": "4:03",
-      "album": "El Amor de Mi Tierra",
+      "title": "Mi media mitad",
+      "artist": "Rey Ruiz",
+      "duration": "4:53",
+      "album": "Oro Salsero",
       "genre": "Salsa"
     },
     {
-      "title": "Cien Anos de Soledad",
-      "artist": "Carlos Vives",
-      "duration": "4:38",
-      "album": "Cien Anos de Soledad",
+      "title": "Caricias prohibidas",
+      "artist": "Viti Ruiz",
+      "duration": "4:53",
+      "album": "Sedúceme",
       "genre": "Salsa"
     },
     {
