@@ -77,7 +77,7 @@ Insert an option >_ """)
                         is_listening = False
                         
                     else:
-                        print('🚧 Incorrect input! Try it again! 🚧\n')
+                        print('\n🚧 Incorrect input! Try it again! 🚧')
                         
             elif (opt == '2'):
                 menu_actions.clear_terminal()
