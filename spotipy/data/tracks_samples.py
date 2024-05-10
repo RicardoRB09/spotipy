@@ -480,6 +480,13 @@ mix = [
         "duration": "3:55",
         "album": "Oscar de Leon",
         "genre": "Salsa"
+    },
+    {
+        "title": "Cachucha bacana",
+        "artist": "Alejo Duran",
+        "duration": "2:26",
+        "album": "El Juglar",
+        "genre": "Vallenato"
     }
 ]
 
