@@ -2,11 +2,6 @@ import json
 
 from utils.menu_actions import clear_terminal
 
-json_file_path = 'data/artists.json'
-
-
-data = json.load(open(json_file_path))
-data = json.dumps(data)
 
 
 class Track():

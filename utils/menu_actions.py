@@ -1,6 +1,6 @@
 import os
 from datetime import datetime, time
-from spotipy.user import User
+from user import User
 
 
 def clear_terminal():
