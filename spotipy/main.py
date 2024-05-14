@@ -1,7 +1,7 @@
-from spotipy.playlist import Playlist
-from spotipy.track import Track
-from spotipy.user import User
-from spotipy.utils import menu_actions as actions
+from playlist import Playlist
+from track import Track
+from user import User
+from utils import menu_actions as actions
 
 
 if __name__ == '__main__':
@@ -39,7 +39,7 @@ Insert an option >_ """)
         elif option == '0':
             exe = False
             actions.clear_terminal()
-            print('✌✌✌ Come back soon ✌✌✌')
+            print('✌ ✌ ✌  Come back soon  ✌ ✌ ✌')
         else:
             actions.incorrect_input_message()
                 

@@ -1,7 +1,9 @@
-from spotipy.track import Track
-from spotipy.data import tracks_samples
-from spotipy.utils import menu_actions
 import random
+
+from data import tracks_samples
+from track import Track
+from utils import menu_actions
+
 
 pop = tracks_samples.pop_tracks
 salsa = tracks_samples.salsa_tracks

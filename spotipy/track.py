@@ -1,8 +1,8 @@
-import json, re
+import json
 
-from spotipy.utils.menu_actions import clear_terminal
+from utils.menu_actions import clear_terminal
 
-json_file_path = 'spotipy/data/artists.json'
+json_file_path = 'data/artists.json'
 
 
 data = json.load(open(json_file_path))
